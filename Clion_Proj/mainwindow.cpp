@@ -179,7 +179,7 @@ bool MainWindow::loadDocument(const QString& filePath)
 void MainWindow::updateDocumentFilePath(const QString& filePath){
     documentFilePath = filePath;
     settings.setValue("Last Configuration",filePath);
-    this->setWindowTitle(APP_NAME " " APP_VERSION " - " + QFileInfo(filePath).fileName() );
+    this->setWindowTitle("串口示波器" " " APP_VERSION " - " + QFileInfo(filePath).fileName() );
     documentIsDirty  = false;
 };
 

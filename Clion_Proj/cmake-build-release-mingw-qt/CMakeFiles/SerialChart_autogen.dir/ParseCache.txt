@@ -8,20 +8,20 @@ C:/Users/Pengzhihui/Desktop/SerialChart/displaybase.cpp
 C:/Users/Pengzhihui/Desktop/SerialChart/decoderplugin.cpp
 C:/Users/Pengzhihui/Desktop/SerialChart/configuration.h
  mmc:Q_OBJECT
-C:/Users/Pengzhihui/Desktop/SerialChart/decoderhdlc.h
- mmc:Q_OBJECT
 C:/Users/Pengzhihui/Desktop/SerialChart/decoderbin.h
  mmc:Q_OBJECT
-C:/Users/Pengzhihui/Desktop/SerialChart/decoderbase.h
+C:/Users/Pengzhihui/Desktop/SerialChart/decoderhdlc.h
  mmc:Q_OBJECT
 C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/qrc_resources.cpp
+C:/Users/Pengzhihui/Desktop/SerialChart/decoderbase.h
+ mmc:Q_OBJECT
 C:/Users/Pengzhihui/Desktop/SerialChart/decodercsv.h
  mmc:Q_OBJECT
-C:/Users/Pengzhihui/Desktop/SerialChart/displaybase.h
+C:/Users/Pengzhihui/Desktop/SerialChart/plugin.h
  mmc:Q_OBJECT
 C:/Users/Pengzhihui/Desktop/SerialChart/decoderplugin.h
  mmc:Q_OBJECT
-C:/Users/Pengzhihui/Desktop/SerialChart/plugin.h
+C:/Users/Pengzhihui/Desktop/SerialChart/displaybase.h
  mmc:Q_OBJECT
 C:/Users/Pengzhihui/Desktop/SerialChart/hiddevice.h
 C:/Users/Pengzhihui/Desktop/SerialChart/mainwindow.h

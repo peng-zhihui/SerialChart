@@ -1,8 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#define APP_NAME "串口示波器"
-#define APP_VERSION "v0.5"
+#define APP_NAME "SerialChart"
+#define APP_VERSION "0.3.4"
 
 
 #include <QMainWindow>
