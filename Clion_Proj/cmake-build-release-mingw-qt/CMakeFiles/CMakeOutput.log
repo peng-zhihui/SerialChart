@@ -1,0 +1,601 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/3.17.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/3.17.5/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe cmTC_28089/fast && D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_28089.dir\build.make CMakeFiles/cmTC_28089.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28089.dir/testCCompiler.c.obj
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe    -o CMakeFiles\cmTC_28089.dir\testCCompiler.c.obj   -c C:\Users\Pengzhihui\Desktop\SerialChart\cmake-build-release-mingw-qt\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_28089.exe
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_28089.dir\link.txt --verbose=1
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_28089.dir/objects.a
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_28089.dir/objects.a @CMakeFiles\cmTC_28089.dir\objects1.rsp
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_28089.dir/objects.a -Wl,--no-whole-archive  -o cmTC_28089.exe -Wl,--out-implib,libcmTC_28089.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_28089.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe cmTC_8434b/fast && D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8434b.dir\build.make CMakeFiles/cmTC_8434b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8434b.dir/CMakeCCompilerABI.c.obj
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe   -v -o CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/ -D_REENTRANT D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\PENGZH~1\AppData\Local\Temp\ccOnAgWh.s
+GNU C (i686-posix-dwarf-rev1, Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p9, MPC version 1.0.2
+warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include"
+ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/../../../../include"
+ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"
+ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C (i686-posix-dwarf-rev1, Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p9, MPC version 1.0.2
+warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e8d9439611eb1674b755b61bb39cd06b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj C:\Users\PENGZH~1\AppData\Local\Temp\ccOnAgWh.s
+GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+Linking C executable cmTC_8434b.exe
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8434b.dir\link.txt --verbose=1
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8434b.dir/objects.a
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_8434b.dir/objects.a @CMakeFiles\cmTC_8434b.dir\objects1.rsp
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_8434b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8434b.exe -Wl,--out-implib,libcmTC_8434b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) 
+COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8434b.exe' '-mtune=generic' '-march=i686'
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\ccuLf8au.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -o cmTC_8434b.exe D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_8434b.dir/objects.a --no-whole-archive --out-implib libcmTC_8434b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include]
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed]
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include]
+  end of search list found
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include]
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed]
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include]
+  implicit include dirs: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe cmTC_8434b/fast && D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8434b.dir\build.make CMakeFiles/cmTC_8434b.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8434b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe   -v -o CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (i686-posix-dwarf-rev1  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/ -D_REENTRANT D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\PENGZH~1\AppData\Local\Temp\ccOnAgWh.s]
+  ignore line: [GNU C (i686-posix-dwarf-rev1  Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p9  MPC version 1.0.2]
+  ignore line: [warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/../../../../include"]
+  ignore line: [ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (i686-posix-dwarf-rev1  Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p9  MPC version 1.0.2]
+  ignore line: [warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e8d9439611eb1674b755b61bb39cd06b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj C:\Users\PENGZH~1\AppData\Local\Temp\ccOnAgWh.s]
+  ignore line: [GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24]
+  ignore line: [COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8434b.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [Linking C executable cmTC_8434b.exe]
+  ignore line: ["D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8434b.dir\link.txt --verbose=1]
+  ignore line: ["D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8434b.dir/objects.a]
+  ignore line: [D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_8434b.dir/objects.a @CMakeFiles\cmTC_8434b.dir\objects1.rsp]
+  ignore line: [D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe     -v -Wl --whole-archive CMakeFiles\cmTC_8434b.dir/objects.a -Wl --no-whole-archive  -o cmTC_8434b.exe -Wl --out-implib libcmTC_8434b.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (i686-posix-dwarf-rev1  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8434b.exe' '-mtune=generic' '-march=i686']
+  link line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\ccuLf8au.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -o cmTC_8434b.exe D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_8434b.dir/objects.a --no-whole-archive --out-implib libcmTC_8434b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o]
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\ccuLf8au.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8434b.exe] ==> ignore
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o] ==> ignore
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_8434b.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_8434b.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/lib]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/lib]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/lib;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe cmTC_a9c9c/fast && D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a9c9c.dir\build.make CMakeFiles/cmTC_a9c9c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a9c9c.dir/testCXXCompiler.cxx.obj
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe     -o CMakeFiles\cmTC_a9c9c.dir\testCXXCompiler.cxx.obj -c C:\Users\Pengzhihui\Desktop\SerialChart\cmake-build-release-mingw-qt\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_a9c9c.exe
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a9c9c.dir\link.txt --verbose=1
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a9c9c.dir/objects.a
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_a9c9c.dir/objects.a @CMakeFiles\cmTC_a9c9c.dir\objects1.rsp
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_a9c9c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a9c9c.exe -Wl,--out-implib,libcmTC_a9c9c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a9c9c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe cmTC_0ef0c/fast && D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0ef0c.dir\build.make CMakeFiles/cmTC_0ef0c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ef0c.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe    -v -o CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/ -D_REENTRANT D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\PENGZH~1\AppData\Local\Temp\ccfJSL9e.s
+GNU C++ (i686-posix-dwarf-rev1, Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p9, MPC version 1.0.2
+warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include"
+ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/../../../../include"
+ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"
+ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward
+End of search list.
+GNU C++ (i686-posix-dwarf-rev1, Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p9, MPC version 1.0.2
+warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0d25aaaf6874cf89759175bf016c1454
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\PENGZH~1\AppData\Local\Temp\ccfJSL9e.s
+GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686'
+Linking CXX executable cmTC_0ef0c.exe
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0ef0c.dir\link.txt --verbose=1
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_0ef0c.dir/objects.a
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_0ef0c.dir/objects.a @CMakeFiles\cmTC_0ef0c.dir\objects1.rsp
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_0ef0c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0ef0c.exe -Wl,--out-implib,libcmTC_0ef0c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe
+COLLECT_LTO_WRAPPER=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) 
+COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0ef0c.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\cc59zRgs.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_0ef0c.exe D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_0ef0c.dir/objects.a --no-whole-archive --out-implib libcmTC_0ef0c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include]
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed]
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include]
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++]
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32]
+    add: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward]
+  end of search list found
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include]
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed]
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include]
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++]
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++/i686-w64-mingw32]
+  collapse include dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++/backward]
+  implicit include dirs: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++/i686-w64-mingw32;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++/backward]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe cmTC_0ef0c/fast && D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0ef0c.dir\build.make CMakeFiles/cmTC_0ef0c.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0ef0c.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe    -v -o CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (i686-posix-dwarf-rev1  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/ -D_REENTRANT D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\PENGZH~1\AppData\Local\Temp\ccfJSL9e.s]
+  ignore line: [GNU C++ (i686-posix-dwarf-rev1  Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p9  MPC version 1.0.2]
+  ignore line: [warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/../../../../include"]
+  ignore line: [ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32]
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (i686-posix-dwarf-rev1  Built by MinGW-W64 project) version 4.9.2 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p9  MPC version 1.0.2]
+  ignore line: [warning: MPFR header version 3.1.2-p9 differs from library version 3.1.2-p10.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0d25aaaf6874cf89759175bf016c1454]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\PENGZH~1\AppData\Local\Temp\ccfJSL9e.s]
+  ignore line: [GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24]
+  ignore line: [COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ef0c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  ignore line: [Linking CXX executable cmTC_0ef0c.exe]
+  ignore line: ["D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0ef0c.dir\link.txt --verbose=1]
+  ignore line: ["D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_0ef0c.dir/objects.a]
+  ignore line: [D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_0ef0c.dir/objects.a @CMakeFiles\cmTC_0ef0c.dir\objects1.rsp]
+  ignore line: [D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe     -v -Wl --whole-archive CMakeFiles\cmTC_0ef0c.dir/objects.a -Wl --no-whole-archive  -o cmTC_0ef0c.exe -Wl --out-implib libcmTC_0ef0c.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (i686-posix-dwarf-rev1  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/]
+  ignore line: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0ef0c.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\cc59zRgs.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_0ef0c.exe D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_0ef0c.dir/objects.a --no-whole-archive --out-implib libcmTC_0ef0c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o]
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\cc59zRgs.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0ef0c.exe] ==> ignore
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o] ==> ignore
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib]
+    arg [-LD:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_0ef0c.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_0ef0c.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/lib]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/lib]
+  collapse library dir [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/lib;D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe cmTC_027f9/fast && D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_027f9.dir\build.make CMakeFiles/cmTC_027f9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_027f9.dir/feature_tests.cxx.obj
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_027f9.dir\feature_tests.cxx.obj -c C:\Users\Pengzhihui\Desktop\SerialChart\cmake-build-release-mingw-qt\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_027f9.exe
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_027f9.dir\link.txt --verbose=1
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_027f9.dir/objects.a
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_027f9.dir/objects.a @CMakeFiles\cmTC_027f9.dir\objects1.rsp
+D:\Libraries\Qt\_Legacy\5.5.1\Tools\mingw492_32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_027f9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_027f9.exe -Wl,--out-implib,libcmTC_027f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_027f9.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

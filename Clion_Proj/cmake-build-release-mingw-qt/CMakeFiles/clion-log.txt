@@ -1,0 +1,4 @@
+"D:\Program Files\JetBrains\CLion\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" C:\Users\Pengzhihui\Desktop\SerialChart
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt

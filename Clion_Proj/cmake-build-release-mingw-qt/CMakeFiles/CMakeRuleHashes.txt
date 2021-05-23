@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+118a37232543a272b1e71ff69a8fdc5a CMakeFiles/SerialChart_autogen
+73914aa01b3b95f1867413ce98894837 qrc_resources.cpp

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SerialPlot"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Libraries\;CMake Files\Libraries\Qt\;CMake Files\Libraries\Qt\_Legacy\;CMake Files\Libraries\Qt\_Legacy\5.5.1\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Core\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Widgets\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5SerialPort\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5WebKit\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Network\;CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5WebKitWidgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialPlot">
+				<Option output="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WEBKIT_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_WEBKITWIDGETS_LIB"/>
+					<Add directory="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot_autogen/include"/>
+					<Add directory="C:/Users/Pengzhihui/Desktop/SerialChart"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtCore"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/./mkspecs/win32-g++"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtGui"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWidgets"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtSerialPort"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWebKit"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtNetwork"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWebKitWidgets"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 SerialPlot"/>
+					<CompileFile command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialPlot/fast">
+				<Option output="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WEBKIT_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_WEBKITWIDGETS_LIB"/>
+					<Add directory="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot_autogen/include"/>
+					<Add directory="C:/Users/Pengzhihui/Desktop/SerialChart"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtCore"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/./mkspecs/win32-g++"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtGui"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWidgets"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtSerialPort"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWebKit"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtNetwork"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWebKitWidgets"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 SerialPlot/fast"/>
+					<CompileFile command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerialPlot_autogen">
+				<Option working_dir="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 SerialPlot_autogen"/>
+					<CompileFile command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/chart.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/chart.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot_autogen/mocs_compilation.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/qrc_resources.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/configuration.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/configuration.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderbase.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderbase.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderbin.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderbin.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decodercsv.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decodercsv.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderhdlc.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderhdlc.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderplugin.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/decoderplugin.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/displaybase.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/displaybase.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/hiddevice.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/hiddevice.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/main.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/mainwindow.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/mainwindow.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/plugin.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/plugin.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/portbase.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/portbase.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/porthid.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/porthid.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/portrs232.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/portrs232.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/resources.qrc">
+			<Option target="SerialPlot"/>
+			<Option target="SerialPlot_autogen"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/serialchartjs.cpp">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/serialchartjs.h">
+			<Option target="SerialPlot"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/resources.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKit/Qt5WebKitConfig.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5WebKit\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKit/Qt5WebKitConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5WebKit\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5Network_QNativeWifiEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5WebKitWidgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/Pengzhihui/Desktop/SerialChart/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Libraries\Qt\_Legacy\5.5.1\5.5\mingw492_32\lib\cmake\Qt5WebKitWidgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

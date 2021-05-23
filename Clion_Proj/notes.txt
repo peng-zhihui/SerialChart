@@ -1,0 +1,51 @@
+[_setup_]
+
+
+//maximum length of a packet in bytes , default = 256, longer packets will be dropped
+packet_max_len = 50
+
+
+display = raw   //print raw packet in asccii format
+
+display = hex   //print raw packet in HEX format
+
+display = list // display list of values in packet, each value is formated according to it's format param
+display_sep = , // list separator percent-encoded, default is comma,  see http://en.wikipedia.org/wiki/Percent-encoding
+display_skip_transparent  =  1 // skip display of values with color = transparent
+
+
+[field]
+
+format = %n=%f   // format value
+                 %n -> field name
+                 %f -> float
+                 %d -> decimal integer
+                 %s -> raw data for this value
+                 %x -> hex of raw data
+
+precision = 6   // precision of floats in format
+
+
+
+decoder = csv   //default decoder , comma separated values
+
+
+decode = hdlc // decode values according to HDLC escaping
+
+hdlc_esc = 7D   // escape char
+hdlc_sep = 7E   // packet separator char
+hdlc_xor = 20   // xor char used in escaping escape and separator chars
+
+
+type =  byte    //byte
+     sbyte
+     word
+     sword
+     dword
+     sdword
+
+endian  = msbf  //most significant byte first  see http://en.wikipedia.org/wiki/Endianness
+        = lsbf  //least significant byte first
+
+
+

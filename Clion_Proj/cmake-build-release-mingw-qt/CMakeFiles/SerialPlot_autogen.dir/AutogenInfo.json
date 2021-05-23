@@ -1,0 +1,252 @@
+{
+	"BUILD_DIR" : "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Pengzhihui/Desktop/SerialChart",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/Pengzhihui/Desktop/SerialChart/CMakeLists.txt",
+		"C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/3.17.5/CMakeSystem.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeGenericSystem.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCInformation.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-C.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
+		"C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/3.17.5/CMakeRCCompiler.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCInformation.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-windres.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXInformation.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"D:/Program Files/JetBrains/CLion/CLion 2020.3.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKit/Qt5WebKitConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKit/Qt5WebKitConfig.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5Network_QNativeWifiEnginePlugin.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfigVersion.cmake",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfig.cmake",
+		"C:/Users/Pengzhihui/Desktop/SerialChart/resources.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/Pengzhihui/Desktop/SerialChart",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/chart.h",
+			"MU",
+			"EWIEGA46WW/moc_chart.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/configuration.h",
+			"MU",
+			"EWIEGA46WW/moc_configuration.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/decoderbase.h",
+			"MU",
+			"EWIEGA46WW/moc_decoderbase.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/decoderbin.h",
+			"MU",
+			"EWIEGA46WW/moc_decoderbin.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/decodercsv.h",
+			"MU",
+			"EWIEGA46WW/moc_decodercsv.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/decoderhdlc.h",
+			"MU",
+			"EWIEGA46WW/moc_decoderhdlc.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/decoderplugin.h",
+			"MU",
+			"EWIEGA46WW/moc_decoderplugin.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/displaybase.h",
+			"MU",
+			"EWIEGA46WW/moc_displaybase.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/hiddevice.h",
+			"MU",
+			"EWIEGA46WW/moc_hiddevice.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/plugin.h",
+			"MU",
+			"EWIEGA46WW/moc_plugin.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/portbase.h",
+			"MU",
+			"EWIEGA46WW/moc_portbase.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/porthid.h",
+			"MU",
+			"EWIEGA46WW/moc_porthid.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/portrs232.h",
+			"MU",
+			"EWIEGA46WW/moc_portrs232.cpp"
+		],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/serialchartjs.h",
+			"MU",
+			"EWIEGA46WW/moc_serialchartjs.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/SerialPlot_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"QT_WEBKITWIDGETS_LIB",
+		"QT_WEBKIT_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/Pengzhihui/Desktop/SerialChart",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtCore",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/mkspecs/win32-g++",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtGui",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWidgets",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtSerialPort",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWebKit",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtNetwork",
+		"D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/include/QtWebKitWidgets",
+		"D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include",
+		"D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed",
+		"D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include",
+		"D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++",
+		"D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++/i686-w64-mingw32",
+		"D:/Libraries/Qt/_Legacy/5.5.1/Tools/mingw492_32/i686-w64-mingw32/include/c++/backward"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/SerialPlot_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Libraries/Qt/_Legacy/5.5.1/5.5/mingw492_32/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 5,
+	"SETTINGS_FILE" : "C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/SerialPlot_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/chart.cpp", "MU" ],
+		[
+			"C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/qrc_resources.cpp",
+			"MU"
+		],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/configuration.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/decoderbase.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/decoderbin.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/decodercsv.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/decoderhdlc.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/decoderplugin.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/displaybase.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/hiddevice.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/main.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/mainwindow.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/plugin.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/portbase.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/porthid.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/portrs232.cpp", "MU" ],
+		[ "C:/Users/Pengzhihui/Desktop/SerialChart/serialchartjs.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

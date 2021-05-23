@@ -1,0 +1,4 @@
+C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/SerialChart.dir
+C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/edit_cache.dir
+C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/rebuild_cache.dir
+C:/Users/Pengzhihui/Desktop/SerialChart/cmake-build-release-mingw-qt/CMakeFiles/SerialChart_autogen.dir
